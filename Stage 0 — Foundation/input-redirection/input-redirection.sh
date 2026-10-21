@@ -1,5 +1,5 @@
 cat << 'EOF' > show-info.sh
-#!bin/bash
+#!/bin/bash
 cat -e << END
 The current directory is: $PWD
 The default paths are: $PATH
