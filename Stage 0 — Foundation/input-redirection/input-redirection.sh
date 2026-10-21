@@ -1,5 +1,7 @@
 cat << 'EOF' > show-info.sh
-The current directory is: $PWD
-The default paths are: $PATH
-The current user is: $USERNAME
+cat -e << 'END'
+echo The current directory is: $PWD
+echo The default paths are: $PATH
+echo The current user is: $USERNAME
+END
 EOF
