@@ -6,6 +6,7 @@ IFS='
 '
 FILENAME="append-output.sh"
 script_dirS=$(cd -P "$(dirname "$BASH_SOURCE")" &>/dev/null && pwd)
+cd "$script_dirS"
 
 if test ! -e append-output; then
 	mkdir append-output
