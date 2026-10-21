@@ -1,0 +1,1 @@
+grep -E " - J" songs.txt >> results.txt 
