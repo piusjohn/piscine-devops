@@ -1,4 +1,4 @@
-touch show-info.sh
-echo 'echo "The current directory is: $PWD$"' > show-info.sh
-echo 'echo "The default paths are: $PATH"' >> show-info.sh
-echo 'echo "The current user is: $USERNAME"' >> show-info.sh
+cat << 'EOF' > show-info.sh
+The current directory is: $PWD
+The default paths are: $PATH
+The current user is: $USERNAME
